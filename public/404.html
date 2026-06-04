@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ikhsan Rahardian — Portfolio</title>
+  <script>
+    // GitHub Pages SPA redirect trick.
+    // When GitHub Pages can't find a route it serves this 404.html.
+    // We stash the full URL in sessionStorage and redirect to the root,
+    // where index.html will restore the path so React/wouter can route it.
+    sessionStorage.setItem('spa_redirect', location.href);
+  </script>
+  <meta http-equiv="refresh" content="0;URL='/'">
+</head>
+<body></body>
+</html>
