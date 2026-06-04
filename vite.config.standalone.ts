@@ -17,7 +17,7 @@ import path from "path";
  * For a root-level user/org site (https://username.github.io/), keep:  base: '/'
  */
 export default defineConfig({
-  base: "/",
+  base: "/porto/",
   plugins: [
     react(),
     tailwindcss(),
